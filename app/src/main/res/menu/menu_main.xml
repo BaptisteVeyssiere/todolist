@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="eu.epitech.todolist.MainActivity">
+
+    <item
+        android:id="@+id/defaultsort"
+        android:orderInCategory="100"
+        android:title="@string/sort_default"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/alphasort"
+        android:orderInCategory="100"
+        android:title="@string/sort_alphabetical"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ralphasort"
+        android:orderInCategory="100"
+        android:title="@string/sort_reverse_alphabetical"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/statussort"
+        android:orderInCategory="100"
+        android:title="@string/sort_status"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/datesort"
+        android:orderInCategory="100"
+        android:title="@string/sort_date"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/search"
+        android:title="@string/search"
+        android:icon="@drawable/ic_open_search"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <item
+        android:id="@+id/reset"
+        android:title="@string/reset"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom" />
+
+</menu>

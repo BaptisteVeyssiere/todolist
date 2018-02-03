@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4527A0</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#4527A0</color>
+    <color name="clrDatePrimary">#98ff98</color>
+    <color name="clrDatePrimaryDark">#12AD6D</color>
+    <color name="clrDateAccent">#12AD6D</color>
+    <color name="todoColor">#FF8C00</color>
+    <color name="UrgentColor">#F31431</color>
+    <color name="DoneColor">#12AD6D</color>
+</resources>
